@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.first_screen a{
+    text-decoration: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.sides{
+    padding-left: 205px;
+    padding-right: 205px;
+}
+.sides2{
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.first_screen{
+    width: 1600px;
+    height: 940px;
+    padding-top: 34px;
+    background-image: url("images/main_page_images/first_screen_background.png");
+}
+
+.nav_top_menu{
+    grid-column-gap: 378px;
+}
+
+.nav_menu{
+    grid-column-gap: 42px;
+}
+
+.first_screen .items{
+    grid-column-gap: 25px;
+}
+
+.first_screen .item{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.buttons{
+    grid-column-gap: 16px;
+}
+
+.button1{
+    width: 50px;
+    height: 50px;
+    background: #1B1B1B;
+    box-shadow: 0 0 15px rgba(189, 45, 67, 0.5);
+    border: 1px solid #1B1B1B;
+    border-radius: 5px;
+}
+
+.button2{
+    width: 50px;
+    height: 50px;
+    background-color: #CB3B48;
+    box-shadow: 0 0 15px rgba(189, 45, 67, 0.5);
+    border: 1px solid #CB3B48;
+    border-radius: 5px;
+}
+
+.button2>img{
+    justify-content: flex-end;
+    display: block;
+}
+
+body > div.first_screen > nav > div.nav_menu.d-flex > div.buttons.d-flex > a:nth-child(2) > button > img:nth-child(1){
+    margin-left: 16px;
+}
+body > div.first_screen > nav > div.nav_menu.d-flex > div.buttons.d-flex > a:nth-child(2) > button > img:nth-child(2){
+    margin-left: 12px;
+}
+
+.button3{
+    width: 180px;
+    height: 50px;
+    background-color: #CB3B48;
+    border: 1px solid #CB3B48;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: background-color 500ms, color 500ms;
+    cursor: pointer;
+}
+.button3:hover{
+    background-color:#FFFFFF;
+    color: #CB3B48;
+}
+
+.first_screen_info img{
+    margin-left: 175px;
+}
+
+.first_screen_info_buttons{
+    margin-left: 389px;
+    grid-column-gap: 50px;
+}
+
+.first_screen_button1 {
+    width: 386px;
+    height: 74px;
+    background: #CB3B48;
+    border: 1px solid #CB3B48;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    transition: background-color 500ms, color 500ms;
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.first_screen_button1:hover{
+    background-color:#FFFFFF;
+    color: #CB3B48;
+}
+
+.first_screen_button2{
+    width: 386px;
+    height: 74px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #CB3B48;
+    transition: background-color 500ms, color 500ms;
+    cursor: pointer;
+}
+.first_screen_button2:hover{
+    background: #CB3B48;
+    color: #FFFFFF;
+}
+
+.second_screen{
+    height: 631px;
+    width: 1600px;
+    background: linear-gradient(180deg, #222220 0%, #222220 11.92%);
+    padding-top: 10px;
+    position: relative;
+    grid-column-gap: 77px;
+}
+
+.second_screen_left .line{
+    width: 73px;
+    height: 5px;
+    background-color: #CB3B48;
+}
+
+.second_screen_left .h2{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 73px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.32);
+}
+
+.second_screen_left .h2:nth-child(1) {
+    font-size: 52px;
+}
+
+body > div.second_screen.sides > div.second_screen_left > div.d-flex > div > h2:nth-child(2) {
+    font-size: 60px;
+}
+
+.second_screen_left img{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.second_screen_left p{
+    width: 577px;
+    font-size: 18px;
+    color: #8F8F8F;
+    margin-bottom: 20px;
+}
+
+.second_screen_left .more{
+    margin-top: 30px;
+}
+
+.second_screen_left a{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.second_screen_right{
+    padding-top: 45px;
+}
+
+.second_screen_right .title{
+    grid-column-gap: 20px;
+    position: relative;
+}
+
+.second_screen_right h4{
+    font-size: 18px;
+    color: #FFFFFF;
+    filter: drop-shadow(0px 0px 30px rgba(255, 255, 255, 0.56));
+    margin-bottom: 32px;
+    position: relative;
+    left: 368px;
+}
+
+.second_screen_right .line {
+    width: 50px;
+    height: 0;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    left: 368px;
+}
+
+.second_screen_right .item{
+    margin-top: 20px;
+    width: 59px;
+    height: 2px;
+    background: #696969;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+
+body > div.second_screen.sides.d-flex > div.second_screen_right > div.items.d-flex > div:nth-child(5){
+    margin-right: 80px;
+}
+body > div.second_screen.sides.d-flex > div.second_screen_right > div.items.d-flex > div:nth-child(1), body > div.second_screen.sides.d-flex > div.second_screen_right > div.items.d-flex > div:nth-child(7){
+    background-color: #CB3B48;
+}
+
+.third_screen{
+    width: 1600px;
+    height: 550px;
+    background-color: #CB3B48;
+    background-image: url("images/main_page_images/third_screen_background.png");
+}
+
+.third_screen h2{
+    padding-top: 33px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+    margin-left: 40px;
+}
+
+body > div.third_screen.sides2 > div > img:nth-child(1), body > div.third_screen.sides2 > div > img:nth-child(6){
+    height: 46px;
+}
+
+.third_screen .dots{
+    grid-column-gap: 15px;
+    justify-content: center;
+}
+
+.third_screen .dot{
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+body > div.third_screen.sides2 > div.dots.d-flex > div:nth-child(1){
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    background: #262121;
+}
+
+.fourth_screen{
+    background: linear-gradient(180deg, #222220 0%, #222220 11.92%);
+    padding-top: 80px;
+    width: 1600px;
+    height: 1350px;
+}
+
+.fourth_screen .part1{
+    grid-column-gap: 53px;
+}
+
+.fourth_screen_right{
+    margin-top: 100px;
+}
+
+.fourth_screen .line{
+    width: 73px;
+    height: 5px;
+    background-color: #CB3B48;
+    box-shadow: 0 0 30px #BD2D43;
+    margin-bottom: 20px;
+}
+
+.fourth_screen_right h2{
+    width: 363px;
+    height: 102px;
+    font-weight: bold;
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.32);
+    margin-bottom: 52px;
+}
+
+.fourth_screen p{
+    width: 508px;
+    height: 115px;
+    font-size: 18px;
+    color: #8F8F8F;
+    margin-bottom: 56px;
+}
+
+.fourth_screen .next{
+    grid-column-gap: 22px;
+}
+
+.fourth_screen a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.32);
+}
+
+.fourth_screen .arrow{
+    width: 59px;
+    height: 2px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+}
+
+.fourth_screen .part2 h2{
+    font-weight: bold;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+}
+
+.fourth_screen .part2_left>h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+    padding-left: 30px;
+}
+
+.fourth_screen .part2_left .group{
+    height: 60px;
+}
+
+.fourth_screen .part2_left .group>h3{
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+body > div.fourth_screen.sides > div.part2.d-flex > div.part2_left > div:nth-child(5){
+    margin-bottom: 50px;
+}
+
+.fourth_screen button{
+    width: 353px;
+    height: 50px;
+    background: #CB3B48;
+    border: 1px solid #CB3B48;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 30px;
+    transition: background-color 500ms, color 500ms;
+    cursor: pointer;
+    margin-bottom: 32px;
+
+}
+.fourth_screen button:hover{
+    background-color:#FFFFFF;
+    color: #CB3B48;
+}
+
+.fourth_screen .part2_left .items{
+    padding-left: 30px;
+    grid-column-gap: 21px;
+}
+
+.fourth_screen .part2_center{
+    width: 1px;
+    height: 466px;
+    border-right: 1px solid #525252;
+    margin-left: 70px;
+    margin-top: 140px;
+    margin-right: 67px;
+}
+
+.fourth_screen .part2_right{
+    margin-top: 145px;
+}
+
+.fourth_screen .part2_right .h3{
+    margin-top: 40px;
+    grid-column-gap: 26px;
+}
+
+body > div.fourth_screen.sides > div.part2.d-flex > div.part2_right > div > h3:nth-child(1){
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+body > div.fourth_screen.sides > div.part2.d-flex > div.part2_right > div > h3:nth-child(2){
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.footer_main{
+    width: 1600px;
+    background-color: #181616;
+    background-image: url("images/main_page_images/footer_background.png");
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer_main .footer_one .links{
+    grid-column-gap: 21px;
+}
+
+.footer_main .footer_one h5{
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #9C9C9C;
+    margin-top: 23px;
+}
+
+.footer_main a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    color: #DCDCDC;
+}
+
+.footer_main .footer_two{
+    margin-left: 134px;
+}
+
+.footer_main .footer_two .Columns{
+    grid-column-gap: 87px;
+}
+
+.footer_main .footer_two .column{
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.footer_main .footer_two .item{
+    margin-bottom: 15px;
+}
+
+.footer_main .footer_two h5{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #9C9C9C;
+    margin-left: 30px;
+}
+
+.footer_main .footer_three{
+    margin-left: 128px;
+}
+
+.footer_main .footer_three h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #BD2D43;
+    margin-bottom: 5px;
+}
+
+.footer_main .footer_three h5{
+    font-weight: normal;
+    font-size: 12px;
+    color: #8F8F8F;
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+.footer_main .footer_three .items{
+    grid-column-gap: 25px;
+    margin-left: 45px;
+}
