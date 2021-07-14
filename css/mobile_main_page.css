@@ -1,0 +1,275 @@
+@media screen and (max-width: 320px) {
+    .sides {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .first_screen .items, body > div.first_screen > nav > div.nav_menu.d-flex > div.buttons.d-flex > a:nth-child(3), body > div.first_screen > nav > div.nav_menu.d-flex > div.buttons.d-flex > a:nth-child(4) {
+        display: none;
+    }
+
+    .first_screen .button1 {
+        width: 40px;
+        height: 40px;
+    }
+
+    .first_screen .button1 img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .first_screen .logo img {
+        width: 174px;
+        height: 37px;
+    }
+
+    .button_mobile {
+        display: flex;
+    }
+
+    .nav_top_menu {
+        grid-column-gap: 23px;
+    }
+
+    .first_screen {
+        width: 320px;
+        height: 600px;
+        padding-top: 10px;
+        background-image: url("images/main_page_images/first_screen_background_mobile.png");
+    }
+
+    .first_screen_info img {
+        margin-top: 60px;
+        margin-left: 0;
+        width: 320px;
+        height: 180px;
+    }
+
+    .first_screen_info_buttons {
+        display: block;
+        margin-left: 30px;
+    }
+
+    .first_screen_button1 {
+        width: 257px;
+        height: 50px;
+        font-size: 16px;
+        margin-bottom: 19px;
+        margin-top: 80px;
+    }
+
+    .first_screen_button1:hover {
+        background-color: #FFFFFF;
+        color: #CB3B48;
+    }
+
+    .first_screen_button2 {
+        width: 257px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .first_screen_button2:hover {
+        background: #CB3B48;
+        color: #FFFFFF;
+    }
+
+    .second_screen {
+        height: 800px;
+        width: 320px;
+        padding-top: 5px;
+        position: relative;
+        display: block;
+    }
+
+    .second_screen_left .h2:nth-child(1) {
+        font-size: 24px;
+    }
+
+    body > div.second_screen.sides > div.second_screen_left > div.d-flex > div > h2:nth-child(2) {
+        font-size: 28px;
+    }
+
+    .second_screen_left img {
+        display: none;
+    }
+
+    body > div.second_screen.sides.d-flex > div.second_screen_left > div.d-flex > img:nth-child(3) {
+        display: flex;
+        position: absolute;
+        top: 21px;
+        left: 126px;
+    }
+
+    .second_screen_left p {
+        display: none;
+    }
+
+    .second_screen_left .more {
+        display: none;
+    }
+
+    .second_screen_right p {
+        display: flex;
+        width: 300px;
+        font-size: 14px;
+        color: #8F8F8F;
+        margin-bottom: 20px;
+    }
+
+    .second_screen_right .more {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .second_screen_right a {
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    .second_screen_right {
+        padding-top: 0;
+    }
+
+    .second_screen_right .title {
+        grid-column-gap: 5px;
+    }
+
+    .second_screen_right h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+        left: 140px;
+    }
+
+    .second_screen_right .line {
+        top: 6px;
+        left: 150px;
+    }
+
+    body > div.second_screen.sides.d-flex > div.second_screen_right > img:nth-child(2) {
+        display: none;
+    }
+
+    body > div.second_screen.sides.d-flex > div.second_screen_right > img:nth-child(3) {
+        display: flex;
+        margin-left: 18px;
+    }
+
+    .second_screen_right .items {
+        margin-left: 18px;
+        margin-right: 10px;
+        margin-bottom: 34px;
+    }
+
+    .second_screen_right .item {
+        margin-top: 20px;
+        width: 59px;
+        height: 2px;
+        background: #696969;
+        border-radius: 100px;
+        margin-right: 8px;
+    }
+
+    body > div.second_screen.sides.d-flex > div.second_screen_right > div.items.d-flex > div:nth-child(5) {
+        margin-right: 36px;
+    }
+
+    .third_screen {
+        width: 320px;
+        height: 180px;
+        background-image: url("images/main_page_images/third_screen_background.png");
+    }
+
+    .third_screen h2 {
+        padding-top: 18px;
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    .sides2 {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    body > div.third_screen.sides2 > div.blocks.d-flex.a-center > img:nth-child(2),
+    body > div.third_screen.sides2 > div.blocks.d-flex.a-center > img:nth-child(3),
+    body > div.third_screen.sides2 > div.blocks.d-flex.a-center > img:nth-child(4){
+        width: 83px;
+        height: 104px;
+    }
+    body > div.third_screen.sides2 > div.blocks.d-flex.a-center > img:nth-child(5), .third_screen .dots{
+        display: none;
+    }
+
+    .fourth_screen{
+        padding-top: 40px;
+        width: 320px;
+        height: 1350px;
+    }
+
+    .fourth_screen .part1{
+        display: block;
+    }
+
+    .fourth_screen_left .line{
+        display: flex;
+        width: 48px;
+        height: 3px;
+        background: #C93A48;
+        box-shadow: 0 0 20px #BD2D43;
+        margin-bottom: 20px;
+    }
+
+    .fourth_screen_left h2{
+        display: flex;
+        width: 239px;
+        height: 67px;
+        font-weight: bold;
+        font-size: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.32);
+        margin-bottom: 23px;
+    }
+
+    .fourth_screen_right .line{
+        display: none;
+    }
+
+    .fourth_screen_right h2{
+        display: none;
+    }
+
+    .fourth_screen_left img:nth-child(3){
+        display: none;
+    }
+
+    .fourth_screen_left img:nth-child(4){
+        display: flex;
+    }
+
+    .fourth_screen p{
+        width: 300px;
+        height: 126px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .fourth_screen .next{
+        grid-column-gap: 22px;
+    }
+
+    .fourth_screen a{
+        text-decoration: none;
+        font-size: 18px;
+        color: #FFFFFF;
+        text-shadow: 0 0 30px rgba(255, 255, 255, 0.32);
+    }
+
+    .fourth_screen .arrow{
+        width: 59px;
+        height: 2px;
+        background-color: #FFFFFF;
+        border-radius: 100px;
+    }
+}
